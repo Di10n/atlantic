@@ -1,8 +1,10 @@
 body {
-  background-color: rgb(59, 188, 76);
-  font-size: 18px;
-  height: 17px;
-  line-height: 27px;
+  background-color: rgb(0, 0, 0);
+  display: block;
+  font-family: sans-serif;
+  max-width: 1350px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @font-face {
@@ -11,35 +13,19 @@ body {
 }
 
 .image {
-  display: block;
   width: 100%;
-  max-width: 1350px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .caption {
-  display: block;
-  font-family: sans-serif;
-  font-size: 200%;
+  font-size: 18px;
   height: auto;
-  line-height: 200%;
-  width: 100%;
-  max-width: 1350px;
-  margin-left: auto;
-  margin-right: auto;
+  line-height: 27px;
   color: #ffffff;
 }
 
 .credit {
-  display: block;
-  font-family: sans-serif;
-  font-size: 155.7%;
-  height: 200%;
-  line-height: 129.6%;
-  width: 100%;
-  max-width: 1350px;
-  margin-left: auto;
-  margin-right: auto;
+  font-size: 14px;
+  height: 17px;
+  line-height: 17.5px;
   color: #666666
 }
