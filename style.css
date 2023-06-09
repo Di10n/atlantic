@@ -5,6 +5,7 @@ body {
   max-width: 1350px;
   margin-left: auto;
   margin-right: auto;
+  width: 90%;
 }
 
 @font-face {
@@ -13,7 +14,7 @@ body {
 }
 
 .image {
-  width: 100%;
+  width: 90%;
 }
 
 .caption {
