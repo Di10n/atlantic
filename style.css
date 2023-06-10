@@ -5,6 +5,9 @@ body {
   max-width: 1350px;
   margin-left: auto;
   margin-right: auto;
+  font-size: 18px;
+  height: 17px;
+  line-height: 27px;
   width: 90%;
 }
 
@@ -19,15 +22,12 @@ body {
 }
 
 .caption {
-  font-size: 18px;
   height: auto;
-  line-height: 27px;
   color: #ffffff;
 }
 
 .credit {
-  font-size: 14px;
-  height: 17px;
-  line-height: 17.5px;
+  font-size: 77.8%;
+  line-height: 64.8%;
   color: #666666
 }
