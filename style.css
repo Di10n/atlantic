@@ -16,8 +16,9 @@ body {
 }
 
 .image {
+  max-height: 80vh;
   width: 100%;
-  margin-top: 2.5%;
+  margin-top: 2vh;
 }
 
 .caption {
@@ -29,4 +30,15 @@ body {
   font-size: 77.8%;
   line-height: 64.8%;
   color: #666666
+}
+
+.arrow {
+  width: 60px;
+  margin: 0px 5px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
