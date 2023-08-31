@@ -17,7 +17,7 @@ function initialize() {
         display(queue, queuePosition);
     }
     function backwardAction() {
-        queuePosition += -1
+        if (queuePosition) {queuePosition += -1}
         display(queue, queuePosition);
     }
     
