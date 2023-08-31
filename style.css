@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(0, 0, 0);
+  display: block;
+  font-family: sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  height: 17px;
+  line-height: 27px;
+  width: 90%;
+}
+
+@font-face {
+  font-family: "Sans Serif";
+  src: "font.ttf" format('truetype');
+}
+
+.image {
+  max-height: 80vh;
+  width: 100%;
+  margin-top: 2vh;
+}
+
+.caption {
+  height: auto;
+  color: #ffffff;
+}
+
+.credit {
+  font-size: 77.8%;
+  line-height: 64.8%;
+  color: #666666
+}
+
+.arrow {
+  width: 60px;
+  margin: 0px 5px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
