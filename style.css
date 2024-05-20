@@ -15,15 +15,28 @@ body {
   src: "font.ttf" format('truetype');
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .image {
   max-height: 80vh;
-  width: 100%;
+  max-width: 90vw;
   margin-top: 2vh;
 }
 
 .caption {
   height: auto;
   color: #ffffff;
+  max-width: 67vw;
+}
+
+@media screen and (max-width: 1350px) {
+  .caption {
+    max-width: 90vw;
+  }
 }
 
 .credit {
