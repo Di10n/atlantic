@@ -28,7 +28,7 @@ function initialize() {
     window.addEventListener("resize", adjustImageHeight);
 
     display(queue, queuePosition);
-    tentimes();
+    manytimes(20);
 }
 
 function forwardAction() {
@@ -44,7 +44,7 @@ function display(queue, queuePosition) {
     let item = data[queue[queuePosition]];
     document.getElementById("caption").innerHTML = item[0];
     document.getElementById("image").setAttribute("src", item[1]);
-    tentimes();
+    manytimes(5);
     document.getElementById("credit").innerHTML = item[2];
 
     if (queuePosition === 0) {
@@ -90,8 +90,7 @@ function adjustImageHeight() {
     stuff.style.maxWidth = `${image.clientWidth}px`;
   }
 
-function tentimes() {
-    let x = 10;
+function manytimes(x) {
     let interval = 100;
     for (let i = 0; i < x; i++) {
         setTimeout(function () {
